@@ -1,0 +1,35 @@
+{
+  "title": "Lab 5 - Quadratic Roots",
+  "cases": [
+    {
+      "type": "header",
+      "name": "Header is filled in"
+    },
+    {
+      "type": "output",
+      "name": "Two roots, negative a",
+      "stdin": ["-1", "1", "1"],
+      "expect": [
+        "Enter coefficient a: Enter coefficient b: Enter coefficient c: Root: -0.6",
+        "Root: 1.6"
+      ]
+    },
+    {
+      "type": "output",
+      "name": "One root",
+      "stdin": ["3", "6", "3"],
+      "expect": "Enter coefficient a: Enter coefficient b: Enter coefficient c: Root: -1.0"
+    },
+    {
+      "type": "output",
+      "name": "No real roots",
+      "stdin": ["2", "1", "5"],
+      "expect": "Enter coefficient a: Enter coefficient b: Enter coefficient c: No Real Roots"
+    },
+    {
+      "type": "comments",
+      "name": "Code is commented",
+      "min": 2
+    }
+  ]
+}
