@@ -21,7 +21,7 @@ maximum = max(2, 5, 8, -3, 14)
 print(maximum)
 
 # rounding to a certain number of decimal places
-rounded_value = round(5.664564564, 2)
+rounded_value = round(5.669564564)
 print(rounded_value)
 
 # absolute value (distance from zero)
